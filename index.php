@@ -29,9 +29,25 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 <?php include "includes/navigation.php"; ?>
-<div class="main">
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, beatae dolorem eos harum inventore minima nobis officia perferendis, placeat possimus provident, quidem similique sit temporibus voluptate. Accusantium nihil pariatur sequi.</div>
-<p>hej sasasa</p>
+<div class="container">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+        <div class="col-md-8">.col-md-8</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+        <div class="col-6">.col-6</div>
+        <div class="col-6">.col-6</div>
+    </div>
 </div>
 
 <?php include "includes/footer.php"; ?>
