@@ -1,0 +1,38 @@
+body {
+
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: coral;
+  height: 50px;
+}
+
+.navigation a{
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main{
+  padding: 1rem;
+  background-color: bisque;
+  min-height: calc(100vh - 50px - 300px);
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  background-color: coral;
+}
+
+.footer a{
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  margin: 5px 0;
+}
