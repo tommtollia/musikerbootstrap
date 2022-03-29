@@ -29,7 +29,11 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 <?php include "includes/navigation.php"; ?>
-<div class="container main">
+<div>
+    <img src="images/pexels-jopwell-2422294.jpg" class="img-fluid" alt="background">
+</div>
+
+<div class="container main ">
     <!-- Stack the columns on mobile by making one full-width and the other half-width -->
     <div class="row">
         <div class="col-md-8">.col-md-8</div>
