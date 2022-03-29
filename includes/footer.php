@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>footer</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -28,7 +28,7 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
-<div class="footer">
+<footer class="footer">
     <div>
         <a href="#">Link</a>
         <a href="#">Link</a>
@@ -44,7 +44,7 @@
         <a href="#">Link</a>
         <a href="#">Link</a>
     </div>
-</div>
+</footer>
 
 </body>
 </html>
